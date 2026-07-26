@@ -20,7 +20,7 @@ export const config = {
 
   // Google Gemini AI ayarları (opsiyonel - tanımlı değilse AI sohbet özelliği devre dışı kalır)
   geminiApiKey: process.env.GEMINI_API_KEY || null,
-  geminiModel: 'gemini-2.5-flash',
+  geminiModel: 'gemini-3.5-flash', // Kullanılacak model
   geminiGecmisLimiti: 20, // Kullanıcı başına saklanacak maksimum mesaj sayısı
 
   // Bot kimliği / karakteri
